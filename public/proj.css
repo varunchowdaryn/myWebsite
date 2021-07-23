@@ -23,3 +23,9 @@ body {
     border-top: 0.5px solid;
     border-bottom: 0.5px solid;
 }
+
+.img {
+    height: 33%;
+    width: 33%;
+    border-radius: 50%;
+}
