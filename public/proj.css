@@ -9,7 +9,7 @@
 }
 
 @font-face {
-    font-family: 'open sans', 'Times New Roman';
+    font-family: roboto;
     font-style: normal;
     font-weight: 300;
     src: url(https://fonts.gstatic.com) format('woff2');
@@ -19,8 +19,11 @@ body {
     font-family: 'open sans';
 }
 
-.about {
-    border-top: 0.5px solid;
+.about,
+.experience,
+.education,
+.skills,
+.interests {
     border-bottom: 0.5px solid;
 }
 
