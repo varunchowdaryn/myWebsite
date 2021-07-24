@@ -1,0 +1,35 @@
+.side-navbar {
+    background: #bd5d38;
+    color: white;
+}
+
+@media only screen and (min-width:600px) {
+    .d-flex {
+        display: block;
+    }
+}
+
+@font-face {
+    font-family: roboto;
+    font-style: normal;
+    font-weight: 300;
+    src: url(https://fonts.gstatic.com) format('woff2');
+}
+
+body {
+    font-family: 'open sans';
+}
+
+.about,
+.experience,
+.education,
+.skills,
+.interests {
+    border-bottom: 0.5px solid;
+}
+
+.image {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
