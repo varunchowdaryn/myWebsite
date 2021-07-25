@@ -1,3 +1,48 @@
 .side-navbar {
-    background: orange;
+    background: #bd5d38;
+    color: white;
+    text-align: center;
+}
+
+@media only screen and (min-width:600px) {
+    .d-flex {
+        display: block;
+    }
+}
+
+@font-face {
+    font-family: roboto;
+    font-style: normal;
+    font-weight: 300;
+    src: url(https://fonts.gstatic.com) format('woff2');
+}
+
+body {
+    font-family: 'roboto';
+}
+
+.about,
+.experience,
+.education,
+.skills,
+.interests {
+    border-bottom: 0.5px solid;
+}
+
+.image {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.grey-color {
+    color: #495057
+}
+
+.orange-color {
+    color: #bd5d38;
+}
+
+.yellow-color {
+    color: #ffc107;
 }

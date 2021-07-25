@@ -1,0 +1,53 @@
+.side-navbar {
+    background: #bd5d38;
+    color: white;
+    text-align: center;
+    img {
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+    }
+}
+
+@font-face {
+    font-family: roboto;
+    font-style: normal;
+    font-weight: 300;
+    src: url(https://fonts.gstatic.com) format('woff2');
+}
+
+body {
+    font-family: 'roboto';
+}
+
+.about,
+.experience,
+.education,
+.skills,
+.interests {
+    border-bottom: 0.1px solid #495057;
+}
+
+.main-content {
+    p {
+        color: #495057
+    }
+    .orange-color {
+        color: #bd5d38;
+    }
+}
+
+.education {
+    h5 {
+        color: #495057;
+    }
+}
+
+.awards {
+    span {
+        color: #495057;
+    }
+    i {
+        color: #ffc107;
+    }
+}

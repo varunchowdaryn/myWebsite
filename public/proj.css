@@ -1,23 +1,22 @@
 .side-navbar {
-    background: #bd5d38;
-    color: white;
+  background: #bd5d38;
+  color: white;
+  text-align: center;
 }
-
-@media only screen and (min-width:600px) {
-    .d-flex {
-        display: block;
-    }
+.side-navbar img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
 }
 
 @font-face {
-    font-family: roboto;
-    font-style: normal;
-    font-weight: 300;
-    src: url(https://fonts.gstatic.com) format('woff2');
+  font-family: roboto;
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com) format("woff2");
 }
-
 body {
-    font-family: 'open sans';
+  font-family: "roboto";
 }
 
 .about,
@@ -25,11 +24,25 @@ body {
 .education,
 .skills,
 .interests {
-    border-bottom: 0.5px solid;
+  border-bottom: 0.1px solid #495057;
 }
 
-.image {
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
+.main-content p {
+  color: #495057;
 }
+.main-content .orange-color {
+  color: #bd5d38;
+}
+
+.education h5 {
+  color: #495057;
+}
+
+.awards span {
+  color: #495057;
+}
+.awards i {
+  color: #ffc107;
+}
+
+/*# sourceMappingURL=proj.css.map */
