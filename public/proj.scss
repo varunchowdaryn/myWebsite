@@ -7,6 +7,11 @@
         width: 100px;
         border-radius: 50%;
     }
+    h6 {
+        &:hover {
+            font-weight: bold;
+        }
+    }
 }
 
 @font-face {
@@ -26,6 +31,7 @@ body {
 .skills,
 .interests {
     border-bottom: 0.1px solid #495057;
+    height: 100vh;
 }
 
 .main-content {
